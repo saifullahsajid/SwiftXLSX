@@ -5,10 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftXLSX",
-    platforms: [
-        .iOS(.v16),
-        .macOS(.v11),
-    ],
+    platforms: [.iOS(.v16)],
     products: [
         .library(
             name: "SwiftXLSX",
